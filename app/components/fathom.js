@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import * as Fathom from 'fathom-client';
+import * as FathomClient from 'fathom-client';
 
 export default function Fathom() {
     const router = useRouter();
@@ -11,12 +11,12 @@ export default function Fathom() {
         //  - Do not include https://
         //  - This must be an exact match of your domain.
         //  - If you're using www. for your domain, make sure you include that here.
-        Fathom.load('HJJBYJNJ', {
+        FathomClient.load('HJJBYJNJ', {
             includedDomains: ['prompttokencounter.com', 'www.prompttokencounter.com'],
         });
 
         function onRouteChangeComplete() {
-            Fathom.trackPageview();
+            FathomClient.trackPageview();
         }
         // Record a pageview when route changes
         router.events.on('routeChangeComplete', onRouteChangeComplete);
