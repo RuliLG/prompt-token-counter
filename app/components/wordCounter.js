@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Tokenizer from '../tokenizer';
 
-export default function wordCounter() {
+export default function WordCounter() {
   const [input, setInput] = useState("");
   const tokens = Tokenizer.singleton.numberOfTokens(input);
 
