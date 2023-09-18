@@ -12,7 +12,7 @@ export default function WordCounter() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="min-h-[calc(100vh_-_200px)] grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div className="flex flex-col pt-12 lg:pb-12 lg:col-span-2">
-                    <label for="textarea" className="block font-bold text-sm text-gray-800 flex-shrink-0">Write your prompt here</label>
+                    <label htmlFor="textarea" className="block font-bold text-sm text-gray-800 flex-shrink-0">Write your prompt here</label>
                     <div className="relative flex-1 mt-4">
                         <textarea
                             id="textarea"
@@ -23,8 +23,8 @@ export default function WordCounter() {
                         ></textarea>
 
                         <div className="absolute bottom-2 right-2 flex items-center text-xs text-gray-400">
-                            <svg className="w-3 h-3" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"></path>
+                            <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"></path>
                             </svg>
                             <span className="ml-1">Your prompt is never stored or transmitted through the internet.</span>
                         </div>
