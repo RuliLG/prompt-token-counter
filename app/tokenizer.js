@@ -7,6 +7,7 @@ export default class Tokenizer {
 
     availableModels = {
         'gpt-4': 'GPT-4',
+        'gpt-4-vision-preview': 'GPT-4 Vision',
         'gpt-3.5-turbo': 'ChatGPT (GPT-3.5 Turbo)',
         'text-davinci-003': 'Davinci',
         'text-curie-001': 'Curie',
