@@ -6,6 +6,7 @@ export default class Tokenizer {
     encodings = {}
 
     availableModels = {
+        'gpt-4o': 'GPT-4o',
         'gpt-4': 'GPT-4',
         'gpt-4-vision-preview': 'GPT-4 Vision',
         'gpt-3.5-turbo': 'ChatGPT (GPT-3.5 Turbo)',
