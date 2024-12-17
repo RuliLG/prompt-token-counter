@@ -37,7 +37,7 @@ const navigation = [
           </div>
           <div className="mt-8 md:order-1 md:mt-0">
             <p className="text-center text-xs leading-5 text-gray-500">
-              &copy; <span>{ new Date().getFullYear() }</span> Borah Agency. All rights reserved.
+              &copy; <span>{ new Date().getFullYear() }</span> <a href="https://borah.digital" target="_blank" className="underline">Borah Digital Labs</a>. All rights reserved.
             </p>
           </div>
         </div>

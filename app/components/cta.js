@@ -11,7 +11,7 @@ export default function Cta() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                    href="https://cq85zpm1tqm.typeform.com/to/w6SG4kkL"
+                    href="https://borah.digital/"
                     target="_blank"
                     className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
